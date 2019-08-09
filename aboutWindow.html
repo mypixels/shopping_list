@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Shopping List</title>
+</head>
+<body>
+   <div class="container">
+     <h1>About</h1>
+     <p>Version <span id="appVersionNumber"></span></p>
+   </div>
+   <script>
+     function getAppVersion() {
+       var appVersion = require('electron').remote.app.getVersion();
+       document.getElementById("appVersionNumber").innerHTML = appVersion;
+     }
+   </script>
+</body>
+</html>

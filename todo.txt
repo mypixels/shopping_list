@@ -1,0 +1,11 @@
+Add shortcut to clear list - DONE
+Add About to menu { version number, desc } - DONE
+Add icon to mainWindow to open addWindow - DONE
+Add content to about.html
+Add ESC shortcut to addWindow to close, replacing Ctrl+Q
+Add delete icon to end of list with remove item function
+Add icon to clear list if list has item(s)
+
+** Save list in text file
+** Option to open stored list
+** Option to delete list entirely
